@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS `p_GADashboard_settings` (
 	`service_account_email` nvarchar(150) NOT NULL,
 	`key_file_name` nvarchar(150) NOT NULL,
 	`profileID` nvarchar(150) NOT NULL,
-	`settingsJSON` nvarchar(max) NULL,
+	`settingsJSON` longtext NULL,
 	PRIMARY KEY (`settingID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 </cfoutput>
